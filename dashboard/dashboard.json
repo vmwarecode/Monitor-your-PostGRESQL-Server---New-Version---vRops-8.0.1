@@ -1,0 +1,585 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1578792255358,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "6bf17427-efc1-4487-8f82-2e637c7a67de",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "PostGreSQL/Overview",
+      "namePath": "PostGreSQL",
+      "rank": 125,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "018e2783-5a7e-47ab-837e-656c6277b48f",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "dff5e421-d334-44de-8a73-612e16d9a019",
+            "widgetIdReceiver": "3e3b180f-53b4-40be-8a6d-bece083e0a4e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "widgetIdReceiver": "480cebcc-1b83-406a-87b3-136be2668f03"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "dff5e421-d334-44de-8a73-612e16d9a019",
+            "widgetIdReceiver": "9ea10d08-6777-4dea-aee8-712ebfc94dad"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "widgetIdReceiver": "9ea10d08-6777-4dea-aee8-712ebfc94dad"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "widgetIdReceiver": "cd950b07-2d9c-4590-8547-8294903cf1db"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "widgetIdReceiver": "f7625dcb-235a-44e0-ba22-29920f5cfa2c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "widgetIdReceiver": "59c2fad2-0a56-47cd-84ef-5968e01c9e72"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Choose a Database",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 3,
+               "y": 1
+            },
+            "height": 552,
+            "id": "3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+            "states": [{
+               "key": "perm_ResourceRelationshipTree_widget_6bf17427-efc1-4487-8f82-2e637c7a67de_3e3b180f-53b4-40be-8a6d-bece083e0a4e",
+               "value": "o%3A"
+            }],
+            "title": "Choose a Database",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "filterMode": {"filterMode": "resourceKind"},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceKind": {"id": "002008APPOSUCPpostgresql"},
+               "resources": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "PostGRESQL Servers"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 2,
+               "x": 1,
+               "y": 1
+            },
+            "height": 552,
+            "id": "dff5e421-d334-44de-8a73-612e16d9a019",
+            "states": [{
+               "key": "permContainerGrid_widget_6bf17427-efc1-4487-8f82-2e637c7a67de_dff5e421-d334-44de-8a73-612e16d9a019",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A131%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A42%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "PostGRESQL Servers",
+            "type": "ContainerOverview"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3595-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "diskBlocks|blks.hit",
+                        "metricName": "Disk Blocks|Blocks Cache Hits",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3595-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "diskBlocks|blks.read",
+                        "metricName": "Disk Blocks|Blocks Read",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3595-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "diskBlocks|blk.read.time",
+                        "metricName": "Disk Blocks|Blocks Read Time",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel3595-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "diskBlocks|blk.write.time",
+                        "metricName": "Disk Blocks|Blocks Write Time",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Disk",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 267,
+            "id": "480cebcc-1b83-406a-87b3-136be2668f03",
+            "title": "Disk",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 11
+            },
+            "height": 267,
+            "id": "9ea10d08-6777-4dea-aee8-712ebfc94dad",
+            "title": "Top Alerts",
+            "type": "ProblemAlertsList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7421-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "statistics|numbackends",
+                        "metricName": "Statistics|Backends Connected",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7421-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "statistics|temp.bytes",
+                        "metricName": "Statistics|Data Written by Queries",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7421-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "statistics|deadlocks",
+                        "metricName": "Statistics|Deadlocks Detected",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7421-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "statistics|conflicts",
+                        "metricName": "Statistics|Queries Cancelled",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7421-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "statistics|temp.files",
+                        "metricName": "Statistics|Temp Files Created by Queries",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Statistics",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 3,
+               "x": 7,
+               "y": 6
+            },
+            "height": 552,
+            "id": "cd950b07-2d9c-4590-8547-8294903cf1db",
+            "title": "Statistics",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8660-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "transactions|xact.commit",
+                        "metricName": "Transactions|Transactions Committed",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8660-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "transactions|xact.rollback",
+                        "metricName": "Transactions|Transactions Rolled Back",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Transactions",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 267,
+            "id": "f7625dcb-235a-44e0-ba22-29920f5cfa2c",
+            "title": "Transactions",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10590-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "tuples|tup.deleted",
+                        "metricName": "Tuples|Tuples Deleted",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10590-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "tuples|tup.fetched",
+                        "metricName": "Tuples|Tuples Fetched",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10590-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "tuples|tup.inserted",
+                        "metricName": "Tuples|Tuples Inserted",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10590-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "tuples|tup.returned",
+                        "metricName": "Tuples|Tuples Returned",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10590-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "tuples|tup.updated",
+                        "metricName": "Tuples|Tuples Updated",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL Database",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Tuples",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 3,
+               "x": 10,
+               "y": 6
+            },
+            "height": 552,
+            "id": "59c2fad2-0a56-47cd-84ef-5968e01c9e72",
+            "title": "Tuples",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "APPOSUCP",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "postgresql_database"
+   }]},
+   "uuid": "3fda081f-5bda-4fa8-a620-6c0e43e20c5c"
+}

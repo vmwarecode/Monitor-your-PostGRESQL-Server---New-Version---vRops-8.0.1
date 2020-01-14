@@ -1,1 +1,0 @@
-# Monitor-your-PostGRESQL-Server---New-Version---vRops-8.0.1
